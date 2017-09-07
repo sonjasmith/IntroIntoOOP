@@ -45,7 +45,7 @@ namespace IntroIntoOOP
 
         }
         public Cat(string name, string furColor, int furLength, 
-            int age, bool isMale, bool isHungry, bool isWalking)
+            int age, bool isMale, bool isHungry)
         {  
             this.name = name;
             this.furColor = furColor;
@@ -53,6 +53,7 @@ namespace IntroIntoOOP
             this.age = age;
             this.isMale = isMale;
             this.isHungry = isHungry;
+            
             
         }
         public void Eat()
@@ -77,7 +78,7 @@ namespace IntroIntoOOP
         }
         public void Talk()
         {
-            Console.WriteLine("My name is {0} and yes I can talk", this.name);
+            Console.WriteLine("My name is{0} and yes I can talk",this.name);
         }
     }
 }
